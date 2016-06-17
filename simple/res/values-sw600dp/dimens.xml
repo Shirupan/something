@@ -1,0 +1,18 @@
+<resources>
+
+    <dimen name="common_padding">4dp</dimen>
+
+    <!-- text size -->
+    <dimen name="title_text_size">14sp</dimen>
+    <dimen name="sub_title_text_size">12sp</dimen>
+    <dimen name="tab_title_text_size">15sp</dimen>
+    <dimen name="text_big_size">16sp</dimen>
+    <dimen name="text_mid_size">11sp</dimen>
+    <dimen name="text_small_size">10sp</dimen>
+
+    <!-- 首次开启闪屏图 -->
+    <dimen name="guide_homepage_textsize">25sp</dimen>
+    <dimen name="guide_homepage_marginbottom">80dp</dimen>
+    <dimen name="guide_point_indication_padding">23dp</dimen>
+
+</resources>

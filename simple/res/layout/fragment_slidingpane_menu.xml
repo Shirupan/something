@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView 
+            android:id="@+id/account_head"
+            android:layout_width="100dp"
+        	android:layout_height="100dp"
+        	android:layout_margin="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_account_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_theme"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_account"
+            style="@style/leftDrawerTitleBigTextStyle"
+            android:background="@null"
+            android:clickable="false"
+            android:drawableLeft="@drawable/slidingmenu_ic_user"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/account"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mine_line" />
+
+    <LinearLayout
+        android:id="@+id/btn_my_apps_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_theme"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ld_my_apps_tv"
+            style="@style/leftDrawerTitleBigTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/slidingmenu_ic_apps"
+            android:text="@string/my_apps" />
+
+        <TextView
+            android:id="@+id/ld_my_apps_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/notification"
+            android:contentDescription="@null"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_small_size"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mine_line" />
+        
+    <LinearLayout
+        android:id="@+id/btn_my_contents_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_theme" >
+
+        <TextView
+            android:id="@+id/ld_my_contents_tv"
+            style="@style/leftDrawerTitleBigTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/slidingmenu_ic_contents"
+            android:text="@string/my_contents" />
+
+        <ImageView
+            android:id="@+id/ld_my_contents_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/new_tip"
+            android:contentDescription="@null"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mine_line" />
+
+    <LinearLayout
+        android:id="@+id/btn_tools_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_theme"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/leftDrawerTitleBigTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/slidingmenu_ic_tools"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/tools"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/ld_tools_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/new_tip"
+            android:contentDescription="@null"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mine_line" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/mine_line"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/btn_settings_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_item_theme" >
+
+            <TextView
+                style="@style/leftDrawerTitleBigTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/slidingmenu_ic_settings"
+                android:text="@string/settings"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/ld_settings_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/new_tip"
+                android:contentDescription="@null"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

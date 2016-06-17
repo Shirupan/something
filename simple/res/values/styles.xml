@@ -1,0 +1,106 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="mTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    
+    <style name="launch.Theme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    
+    <style name="leftDrawerTitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_item_theme</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@color/left_drawer_title_color</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+	<style name="leftDrawerTitleBigTextStyle" parent="@style/leftDrawerTitleTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/left_drawer_big_text_size</item>
+    </style>
+    
+	<!-- footbar style -->
+    
+    <style name="footbar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/footbar_radio_text_size</item>
+        <item name="android:textColor">@color/selector_rb_text_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+    </style>
+    <style name="main_footbar_radio" parent="footbar">
+        <item name="android:padding">4dp</item>
+        <item name="android:drawablePadding">0dp</item>
+    </style>
+    
+    
+    <style name="mytitleTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+     <style name="ViewpagerActionBarTheme" parent="mTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+    </style>
+    <style name="Widget"></style>
+	<style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium"></style>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:textSize">@dimen/tab_title_text_size</item>
+        <!-- <item name="android:divider">@drawable/custom_tab_indicator_divider</item> -->
+        <item name="dividerPadding">10dp</item>
+        <item name="showDividers">middle</item>
+        <item name="android:paddingLeft">@dimen/tab_title_padding</item>
+        <item name="android:paddingRight">@dimen/tab_title_padding</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/tab_fade_edgelength</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingRight">22dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

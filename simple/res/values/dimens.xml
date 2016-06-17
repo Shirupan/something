@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="common_padding_small">2dp</dimen>
+    <dimen name="common_padding">4dp</dimen>
+    <dimen name="common_padding_middle">16dp</dimen>
+    <dimen name="tab_title_padding">10dp</dimen>
+    <dimen name="tab_fade_edgelength">4dp</dimen>
+
+    <!-- text size -->
+    <dimen name="title_text_size">14sp</dimen>
+    <dimen name="sub_title_text_size">12sp</dimen>
+    <dimen name="tab_title_text_size">15sp</dimen>
+    <dimen name="footbar_radio_text_size">10sp</dimen>
+    <dimen name="text_big_size">15sp</dimen>
+    <dimen name="text_mid_size">11sp</dimen>
+    <dimen name="text_small_size">10sp</dimen>
+    <dimen name="text_large_size">20sp</dimen>
+    <dimen name="text_sub_large_size">14sp</dimen>
+    <dimen name="text_connecting_size">16sp</dimen>
+    <dimen name="left_drawer_big_text_size">18sp</dimen>
+
+    <!-- 新手引导 -->
+    <dimen name="guide_homepage_textsize">20sp</dimen>
+    <dimen name="guide_homepage_marginbottom">60dp</dimen>
+    <dimen name="guide_point_indication_padding">15dp</dimen>
+    <dimen name="guide_start_btn_padding_left_right">30dp</dimen>
+    <dimen name="guide_start_btn_padding_top_bottom">7dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="font_size_xx_small">32px</dimen>
+    <dimen name="font_size_x_small">40px</dimen>
+    <dimen name="font_size_small_30">30px</dimen>
+    <dimen name="font_size_small_40">40px</dimen>
+    <dimen name="font_size_small_44">44px</dimen>
+    <dimen name="font_size_small">45px</dimen>
+    <dimen name="font_size_small1">48px</dimen>
+    <dimen name="font_size_medium_50">50px</dimen>
+    <dimen name="font_size_medium">54px</dimen>
+    <dimen name="font_size_s_large">60px</dimen>
+    <dimen name="font_size_large">63px</dimen>
+    <dimen name="font_size_x_large">72px</dimen>
+    <dimen name="font_size_x_large1">84px</dimen>
+    <dimen name="font_size_xx_large">90px</dimen>
+    <dimen name="font_size_xxx_large">100px</dimen>
+    <dimen name="font_size_xxxx_large">124px</dimen>
+
+</resources>

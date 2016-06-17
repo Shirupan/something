@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">简单框架</string>
+    <string name="retry">重试</string>
+    <string name="gohome">回到主页</string>
+    <string name="error_tips">读取失败，请重试。</string>
+    <string name="exit_tips">再次按下返回键退出</string>
+
+    <!-- tab -->
+    <string name="home">主页</string>
+    <string name="apps">应用</string>
+    <string name="me">我</string>
+    <string name="games">游戏</string>
+    <string name="ringtone">音乐</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="home_recommend">首页推荐</string>
+    <string name="home_collection">首页精选</string>
+    <string name="home_must_have">首页必玩</string>
+    <string name="game_categories">游戏分类</string>
+    <string name="game_hot">热门游戏</string>
+    <string name="game_new">最新游戏</string>
+    <string name="ringtone_categories">铃声分类</string>
+    <string name="ringtone_hot">热门铃声</string>
+    <string name="ringtone_new">最新铃声</string>
+    <string name="wallpaper_categories">壁纸分类</string>
+    <string name="wallpaper_album">壁纸合辑</string>
+    <string name="wallpaper_hot">热门壁纸</string>
+    <string name="wallpaper_new">最新壁纸</string>
+
+    <!-- left_drawer -->
+    <string name="account">账户</string>
+    <string name="settings">设置</string>
+    <string name="my_apps">我的应用</string>
+    <string name="my_contents">我的文件</string>
+    <string name="tools">工具</string>
+
+    <!-- 新手引导 -->
+    <string name="start_now">立即开启</string>
+
+</resources>
